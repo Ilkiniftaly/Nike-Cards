@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigator {
+  background-color: rgb(48, 133, 244);
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  padding: 7px 0;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.shoes {
+  color: rgb(48, 133, 244);
+  font-size: 25px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-top: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.nike {
+  color: #000;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 17px;
+  padding-top: 3px;
+  margin-bottom: 25px;
+}
+
+#nike-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nike-card {
+  width: 300px;
+  height: 425px;
+  -webkit-box-shadow: 0px 0px 36px 6px rgba(145, 136, 145, 1);
+  -moz-box-shadow: 0px 0px 36px 6px rgba(145, 136, 145, 1);
+  box-shadow: 0px 0px 36px 6px rgba(145, 136, 145, 1);
+  border-radius: 18px;
+}
+
+.nike-card:hover {
+  -webkit-box-shadow: 0px 0px 36px 6px rgb(36, 206, 61);
+  -moz-box-shadow: 0px 0px 36px 6px rgb(36, 206, 61);
+  box-shadow: 0px 0px 36px 6px rgb(36, 206, 61);
+}
+
+.icons-img {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.icon-sportlogo {
+  margin: 10px;
+  margin-right: 10px;
+}
+
+.nike-text {
+  padding-left: 10px;
+}
+
+.nike-name {
+  color: #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+
+.nike-name:hover {
+  color: rgb(36, 206, 61);
+}
+
+.nike-info {
+  color: #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 11px;
+  padding-bottom: 8px;
+}
+
+.star-icon {
+  font-size: 10px;
+}
+
+.star-icon:hover {
+  color: yellow;
+}
+
+.color-money {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+
+span {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.color {
+  display: flex;
+  margin-left: 10px;
+  color: #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+
+.color-black {
+  background-color: #4d1f1f;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.color-blue {
+  background-color: blue;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 3px;
+}
+
+.color-yellow {
+  background-color: yellow;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 3px;
+}
+
+.color-red {
+  background-color: red;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 3px;
+}
+
+.money {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.money .money-text {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+button {
+  width: 280px;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 15px;
+  background-color: rgb(48, 133, 244);
+}
+
+button:hover {
+  background-color: rgb(36, 206, 61);
+}
